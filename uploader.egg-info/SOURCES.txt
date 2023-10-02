@@ -1,0 +1,15 @@
+README.md
+setup.py
+test_uploader/__init__.py
+test_uploader/test_gcsuploader.py
+test_uploader/test_s3uploader.py
+test_uploader/test_uploader.py
+uploader/__init__.py
+uploader/gcsuploader.py
+uploader/s3uploader.py
+uploader/uploader.py
+uploader.egg-info/PKG-INFO
+uploader.egg-info/SOURCES.txt
+uploader.egg-info/dependency_links.txt
+uploader.egg-info/requires.txt
+uploader.egg-info/top_level.txt

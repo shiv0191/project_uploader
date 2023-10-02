@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: uploader
+Version: 1.0
+Summary: To upload system files to GCS and S3
+Author: Shiv Singh
+Author-email: shivpsingh0191@gmail.com
+Project-URL: Source, https://github.com/shiv0191/project_uploader
+Keywords: uploading,GCS,S3
+Classifier: Development Status :: 4 - Beta/Testing
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: boto3==1.28.57
+Requires-Dist: google-cloud-storage==2.11.0
+Requires-Dist: pytest==7.4.2
