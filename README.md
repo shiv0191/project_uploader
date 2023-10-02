@@ -35,17 +35,47 @@ You can use the Uploader library in the following ways:
    python run_uploader.py
    ```
 
-### Installation Method
+### Installation Method Using pip
 
-2. Alternatively, you can install the Uploader library using pip:
+You can install the Uploader library using pip. Open your terminal or command prompt and run the following command:
 
-   ```bash
-   pip install uploader
+```bash
+pip install uploader
+```
+To use the Uploader library in your code, follow these steps:
+
+1. Import the `Uploader` class from the `uploader.uploader` module:
+
+   ```python
+   from uploader.uploader import Uploader
    ```
 
-   Then, you can use it in your code base.
+2. Instantiate the `Uploader` class in your code:
 
-Make sure to set the configurations and folder paths as needed for your use case.
+   ```python
+   uploader = Uploader(
+       s3_bucket_name='your_s3_bucket_name',
+       aws_access_key_id='your_aws_access_key_id',
+       aws_secret_access_key='your_aws_secret_access_key',
+       gcs_project_id='your_gcs_project_id',
+       gcs_bucket_name='your_gcs_bucket_name',
+       gcs_credentials_file_path='path_to_your_gcs_credentials_file.json'
+   )
+   ```
+
+   Make sure to set the configurations and folder paths as needed for your use case.
+
+3. Use the `uploader` object to perform file uploads to the cloud storage services.
+
+### Example
+
+For an example of how to use the Uploader library, refer to the `run_uploader.py` file in this repository.
+
+### Note
+
+It is recommended to use a virtual environment (virtualenv) when working with Python libraries to isolate dependencies and avoid conflicts with other projects.
+
+You can customize and expand upon this content to provide more detailed usage instructions and information about your library.
 
 ## Configuration
 
